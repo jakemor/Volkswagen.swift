@@ -83,7 +83,8 @@ public class Volkswagen {
 			task.resume()
 
 		} else {
-			fatalError("Volkswagen.shared.appId is not defined.")
+			liveVersion = "0"
+			completion?()
 		}
 		
 	}
