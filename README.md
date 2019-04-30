@@ -16,7 +16,7 @@ There must be a live version of your app in the App Store
 
 In `AppDelegate.swift`, let Volkswagen know your App's Apple ID. If your app is not yet live, skip this step.
 
-```
+```swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
   ...
@@ -28,7 +28,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 Later, conditionally enable / disable features based on whether this instance of your app is under review
 
-```
+```swift
 Volkswagen.shared.isAppUnderReview {
   underReview in
 
@@ -43,7 +43,7 @@ Volkswagen.shared.isAppUnderReview {
 
 To force a value for `underReview` while testing:
 
-```
+```swift
 Volkswagen.shared.forcedValue = false
 ```
 
