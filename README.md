@@ -57,6 +57,6 @@ Apple tends to ban apps that compete with their own products.
 
 `Volkswagen.swift` hits the public iTunes API to get the latest publicly available version of your app. If the current instance of the app has a higher version than what's publicly available, Volkswagen knows the app is under review. Once your app is approved, the latest publicly available version of your app changes,  which in turn changed the way your app behaves.
 
-## Let's Connect
+## Twitter
 
-Hit me up on Twitter: [@jakemor](https://twitter.com/jakemor)
+[@jakemor](https://twitter.com/jakemor)
