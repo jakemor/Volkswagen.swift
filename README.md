@@ -1,8 +1,6 @@
 # Volkswagen.swift
 
-CAUTION: Use this at your own risk. 
-
-A tiny utility to cheat the App Store review process and ship any feature you want. 
+This utility demonstrates how easy it is to cheat the App Store review process. It is not recommended that you actually use this. 
 
 ## Getting Started
 
